@@ -178,6 +178,7 @@ main section {
     color: #474747;
     font-size: 25px;
     font-weight: 700;
+    margin-bottom: 10px;
 
 }
 
@@ -192,4 +193,28 @@ main section {
     color: #757575;
     font-size: 20px;
     font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.resume-container{
+    display: flex;
+    gap: 55px;
+    
+}
+.resume-container hr{
+    margin: 30px 0px;
+}
+.download{
+    text-align: center;
+    padding-bottom: 113px;
+}
+/* Start Footer Style */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+
+.footer-title{
+    text-align: left;
 }
