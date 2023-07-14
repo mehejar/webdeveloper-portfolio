@@ -1,0 +1,50 @@
+/* name related styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    color: var(--dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
+.btn-primery {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.primery-color {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    padding-right: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #181818;
+}
